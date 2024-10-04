@@ -206,4 +206,4 @@ ax.tick_params(axis='y', labelsize=12)
 
 # Display the bar chart in Streamlit
 st.pyplot(fig)
->>>>>>> 51e595891a325e8a82cea3c142de3b6ff5d1e73e
+
