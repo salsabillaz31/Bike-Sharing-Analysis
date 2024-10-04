@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-hour_df = pd.read_csv("hour_cleaned.csv")  
+hour_df = pd.read_csv("./Dashboard/hour_cleaned.csv")  
 
 # Set the title for the app
 st.title('Bike Sharing Data Dashboard')
