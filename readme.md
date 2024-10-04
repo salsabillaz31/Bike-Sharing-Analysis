@@ -31,11 +31,26 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 	- cnt: count of total rental bikes including both casual and registered
 
 
-=========================================
-Files
-=========================================
+
+# ***Files***
 
 	- Readme.txt
 	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
 	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
+# ***How to run My File***
+
+## Setup Environment - Anaconda
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+
+## Setup Environment - Shell/Terminal
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+
+## Run steamlit app
+streamlit run dashboard.py
