@@ -54,3 +54,7 @@ pip install -r requirements.txt
 
 ## Run steamlit app
 streamlit run dashboard.py
+
+
+## Access the Dashboard on the link below
+https://bike-sharing-analysis-ktvube2uemybrlnsddqjuj.streamlit.app/
