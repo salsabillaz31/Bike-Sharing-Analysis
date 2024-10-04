@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-hour_df = pd.read_csv("hour_cleaned.csv")
+hour_df = pd.read_csv("./Dashboard/hour_cleaned.csv")
 
 # Convert the 'date' column to datetime format if it's not already
 hour_df['date'] = pd.to_datetime(hour_df['date'])
